@@ -18,8 +18,7 @@ LOCAL_MODULE_RELATIVE_PATH    := hw
 LOCAL_PROPRIETARY_MODULE      := true
 LOCAL_MODULE_TAGS             := optional
 LOCAL_C_INCLUDES              := $(common_includes) \
-                                 $(kernel_includes) \
-                                 external/libcxx/include/
+                                 $(kernel_includes)
 
 LOCAL_HEADER_LIBRARIES        := libhardware_headers
 LOCAL_EXPORT_HEADER_LIBRARY_HEADERS := libhardware_headers liblog_headers
